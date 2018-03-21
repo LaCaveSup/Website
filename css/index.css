@@ -1,5 +1,10 @@
-body {background-color: #202020;color:#f0f0f0}
-h1 {font-family: Verdana,Arial;color:#ee7600}
+body{background-color:ee7600; position:relative}
+.content {
+	background-color: #202020; color:#f0f0f0; 
+	position:relative; margin:auto;
+	height:100%; width:85%; border-radius: 10px
+}
+h1 {font-family : Verdana, Arial; color:#ee7600; font-weight: bold; margin-bottom:0px}
 a {color:ee7600}
 .overlay {
 	position:absolute;
