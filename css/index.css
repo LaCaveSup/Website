@@ -1,0 +1,43 @@
+body{background-color:ee7600; position:relative}
+.content {
+	background-color: #202020; color:#f0f0f0; 
+	position:relative; margin:auto;
+	height:100%; width:85%; border-radius: 10px
+}
+h1 {font-family : Verdana, Arial; color:#ee7600; font-weight: bold; margin-bottom:0px}
+a {color:ee7600}
+.overlay {
+	position:absolute;
+	opacity:0; 
+	transition:.2s ease;
+	background-color:#ffffff;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-radius:5px;
+}
+.hoverContainer{position:relative;}
+.hoverContainer:hover .overlay{opacity:.2}
+#chessppLogo{width:500; height:100}
+.hoverImage{width:100%;height:100%; display:block}
+
+#sidenav{
+	float: left;
+	padding-left: 20px;
+	width: 110px;
+}
+
+#mainContent{
+	margin: auto;
+
+}
+
+#creationsBox{
+	margin-top: 50px;
+}
+
+#logoBanner{
+	height : 50%;
+	min-height: 310px;
+}
